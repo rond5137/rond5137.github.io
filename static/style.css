@@ -1,11 +1,17 @@
 .btn {
     width: 7rem;
+    margin-top: 3px;
 }
 
 .btn_link {
     color: black;
     text-decoration: none;
     font-size: 1rem;
+}
+
+.btn_div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .active {
@@ -15,4 +21,11 @@
 
 .active > a {
     color: white;
+}
+
+@media (max-width: 610px) {
+    .btn_div {
+        text-align: center;
+    }
+
 }
