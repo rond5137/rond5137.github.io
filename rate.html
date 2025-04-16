@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rate</title>
+    <style>
+        .pb-1 {
+            padding-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+<div class="pb-1">
+    <input type="number" id="rate">
+</div>
+<div class="pb-1">
+    <input type="number" id="inp_1">
+</div>
+<div class="pb-1">
+    <span id="span_1"></span>
+</div>
+<script src="/static/jquery-3.7.1.slim.min.js"></script>
+<script>
+    let val_1 = $('#inp_1');
+    val_1.on('input', function () {
+        $('#span_1').html(val_1.val() * $('#rate').val());
+    })
+</script>
+</body>
+</html>
