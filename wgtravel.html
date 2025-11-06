@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Windguru - Asia</title>
+    <title>Windguru - Travel</title>
     <link rel="icon" href="static/windguru-icon-512x512.png">
     <link rel="apple-touch-icon" href="static/windguru-icon-512x512.png">
     <link rel="stylesheet" href="static/style.css">
@@ -12,7 +12,7 @@
 <div class="btn_div">
     <button class="btn"><a class="btn_link" href="/wg">Vladivostok</a></button>
     <button class="btn"><a class="btn_link" href="/wgprim">Primorye</a></button>
-    <button class="btn active"><a class="btn_link" href="/wgasia">East Asia</a></button>
+    <button class="btn active"><a class="btn_link" href="/wgtravel">Travel</a></button>
 </div>
 
 <!--Japan - Tokyo, GFS 13 km-->
@@ -20,6 +20,34 @@
 (function (window, document) {
   var loader = function () {
     var arg = ["s=298527" ,"m=3","uid=wg_fwdg_298527_3_1728011395444" ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=2" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
+    var script = document.createElement("script");
+    var tag = document.getElementsByTagName("script")[0];
+    script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));
+    tag.parentNode.insertBefore(script, tag);
+  };
+  window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
+})(window, document);
+</script>
+
+<!--Japan - Osaka, GFS 13 km-->
+<script id="wg_fwdg_1306802_3_1762469159892">
+(function (window, document) {
+  var loader = function () {
+    var arg = ["s=1306802" ,"m=3","uid=wg_fwdg_1306802_3_1762469159892" ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=2" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
+    var script = document.createElement("script");
+    var tag = document.getElementsByTagName("script")[0];
+    script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));
+    tag.parentNode.insertBefore(script, tag);
+  };
+  window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
+})(window, document);
+</script>
+
+<!--Japan - Okinawa, GFS 13 km-->
+<script id="wg_fwdg_288025_3_1762469804367">
+(function (window, document) {
+  var loader = function () {
+    var arg = ["s=288025" ,"m=3","uid=wg_fwdg_288025_3_1762469804367" ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=2" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
     var script = document.createElement("script");
     var tag = document.getElementsByTagName("script")[0];
     script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));
@@ -76,34 +104,6 @@
 (function (window, document) {
   var loader = function () {
     var arg = ["s=263613" ,"m=3","uid=wg_fwdg_263613_3_1728012048876" ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=2" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
-    var script = document.createElement("script");
-    var tag = document.getElementsByTagName("script")[0];
-    script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));
-    tag.parentNode.insertBefore(script, tag);
-  };
-  window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
-})(window, document);
-</script>
-
-<!--China - ЧанБайШань-->
-<script id="wg_fwdg_339142_3_1744842848122">
-(function (window, document) {
-  var loader = function () {
-    var arg = ["s=339142" ,"m=3","uid=wg_fwdg_339142_3_1744842848122" ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=1" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
-    var script = document.createElement("script");
-    var tag = document.getElementsByTagName("script")[0];
-    script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));
-    tag.parentNode.insertBefore(script, tag);
-  };
-  window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
-})(window, document);
-</script>
-
-<!--China - Китай, Янцзы-->
-<script id="wg_fwdg_1259883_3_1744842960737">
-(function (window, document) {
-  var loader = function () {
-    var arg = ["s=1259883" ,"m=3","uid=wg_fwdg_1259883_3_1744842960737" ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=1" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
     var script = document.createElement("script");
     var tag = document.getElementsByTagName("script")[0];
     script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));

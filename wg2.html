@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Windguru</title>
+    <link rel="icon" href="static/windguru-icon-512x512.png">
+    <link rel="apple-touch-icon" href="static/windguru-icon-512x512.png">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+<span onclick="Tokyo()">Tokyo</span>
+<span onclick="Osaka()">Osaka</span>
+
+<script id="wg_fwdg_298527_3_1728011395444">
+  var loader = function (s, uid) {
+    var arg = ["s="+s ,"m=3","uid="+uid ,"wj=ms" ,"tj=c" ,"waj=m" ,"tij=cm" ,"odh=0" ,"doh=24" ,"fhours=240" ,"hrsm=2" ,"vt=forecasts" ,"lng=ru" ,"p=WINDSPD,GUST,MWINDSPD,SMER,TMP,TMPE,WCHILL,FLHGT,CDC,APCP1s,SLP,RH"];
+    var script = document.createElement("script");
+    var tag = document.getElementsByTagName("script")[0];
+    script.src = "https://www.windguru.cz/js/widget.php?"+(arg.join("&"));
+    tag.parentNode.insertBefore(script, tag);
+  };
+
+  function Tokyo() {
+      let s = '298527';
+      let uid = 'wg_fwdg_298527_3_1728011395444';
+      loader(s, uid);
+  }
+
+  function Osaka() {
+      let s = '1306802';
+      let uid = 'wg_fwdg_1306802_3_1762469159892';
+      loader(s, uid);
+  }
+
+
+</script>
+
+</body>
+</html>
